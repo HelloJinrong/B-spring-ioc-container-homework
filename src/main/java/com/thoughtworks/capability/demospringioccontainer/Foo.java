@@ -7,10 +7,6 @@ public class Foo {
 
     private Bar bar;
 
-    public Foo(Bar bar) {
-        this.bar = bar;
-    }
-
     public void hi() {
         System.out.println("Hi, " + bar.name());
     }
